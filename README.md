@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Awesome Code Editors & IDEs Banner" width="100%" />
+<img src="assets/banner.svg" alt="Awesome Code Editors & IDEs Banner" width="100%" />
 
 # ⚡ Awesome Code Editors & IDEs 🛠️
 
