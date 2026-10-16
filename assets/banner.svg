@@ -36,7 +36,7 @@
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.07" />
     </pattern>
 
-    <style>
+    <style><![CDATA[
       .bg-grid {
         animation: gridPulse 8s ease-in-out infinite alternate;
       }
@@ -45,7 +45,7 @@
         100% { opacity: 0.8; }
       }
 
-      /* Dynamic background flow particles & waves */
+      /* Dynamic background flow particles and waves */
       .wave-path {
         animation: waveShift 12s linear infinite alternate;
       }
@@ -124,7 +124,7 @@
         font-size: 13px;
         font-weight: 500;
       }
-    </style>
+    ]]></style>
   </defs>
 
   <!-- Base Canvas Background -->
@@ -136,9 +136,9 @@
   <!-- Background Grid -->
   <rect width="1200" height="360" fill="url(#cyber-grid)" class="bg-grid" />
 
-  <!-- DYNAMIC AMBIENT BACKGROUND ELEMENTS (Behind Text & Cards) -->
+  <!-- DYNAMIC AMBIENT BACKGROUND ELEMENTS (Behind Text and Cards) -->
   <g opacity="0.4" class="wave-path">
-    <!-- Flow Curves & Waves -->
+    <!-- Flow Curves and Waves -->
     <path d="M -100 280 C 200 320, 350 200, 600 260 C 850 320, 1000 210, 1300 240" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 6" opacity="0.4" />
     <path d="M -50 320 C 250 240, 450 340, 750 280 C 1050 220, 1150 320, 1350 280" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="12 8" opacity="0.35" />
     <path d="M 0 100 C 300 40, 500 120, 800 60 C 1050 10, 1150 80, 1250 50" fill="none" stroke="#818cf8" stroke-width="1" stroke-dasharray="6 6" opacity="0.2" />
@@ -175,7 +175,7 @@
     <text x="142" y="201" class="code-font" fill="#64748b" font-size="10">UTF-8</text>
   </g>
 
-  <!-- Right Dynamic Element: Editor Architecture & Metrics (Floating smoothly) -->
+  <!-- Right Dynamic Element: Editor Architecture and Metrics (Floating smoothly) -->
   <g class="floating-node-2" transform="translate(942, 65)">
     <!-- Metrics Card Frame -->
     <rect width="210" height="230" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="url(#pill-border)" stroke-width="1" />
@@ -203,7 +203,7 @@
     <circle cx="182" cy="177" r="3" fill="#c084fc" />
   </g>
 
-  <!-- FOREGROUND: CENTER TITLE & BADGES (Guaranteed clear & unobstructed) -->
+  <!-- FOREGROUND: CENTER TITLE and BADGES (Guaranteed clear and unobstructed) -->
   <g transform="translate(600, 78)" text-anchor="middle">
     <!-- Top Super-Badge / Category Pill -->
     <g class="dynamic-pill pill-glow-1">
@@ -224,7 +224,7 @@
 
     <!-- BOTTOM FEATURE PILLS ROW (Clean, Foreground, High-Contrast) -->
     <g transform="translate(0, 138)">
-      <!-- Pill 1: SaaS & Cloud -->
+      <!-- Pill 1: SaaS and Cloud -->
       <g class="dynamic-pill pill-glow-1" transform="translate(-230, 0)">
         <rect x="-65" y="-16" width="130" height="32" rx="16" fill="#111827" fill-opacity="0.95" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.7" />
         <text x="0" y="5" class="code-font" fill="#e0f2fe" text-anchor="middle" font-size="11.5">☁️ SaaS &amp; Cloud</text>
@@ -236,7 +236,7 @@
         <text x="0" y="5" class="code-font" fill="#e0e7ff" text-anchor="middle" font-size="11.5">🔓 Open Source</text>
       </g>
 
-      <!-- Pill 3: Rust & GPU -->
+      <!-- Pill 3: Rust and GPU -->
       <g class="dynamic-pill pill-glow-3" transform="translate(80, 0)">
         <rect x="-66" y="-16" width="132" height="32" rx="16" fill="#111827" fill-opacity="0.95" stroke="#a855f7" stroke-width="1" stroke-opacity="0.7" />
         <text x="0" y="5" class="code-font" fill="#f3e8ff" text-anchor="middle" font-size="11.5">⚡ Rust &amp; GPU</text>
