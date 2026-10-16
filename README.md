@@ -30,55 +30,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Integrated Development Environment (IDE) and code editor market is valued between $4B and $6B, expanding at a CAGR of ~10–14% fueled by AI developer tool adoption and cloud-based development environments. The sector is moderately fragmented across specialized language niches and open-source communities, but heavily concentrated at the top tier where tech giants (Microsoft and Apple) and category incumbents (JetBrains) capture the majority of global developer usage and enterprise market share.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Visual Studio](https://visualstudio.microsoft.com/)**  
-
-  **Microsoft's full-featured IDE** for .NET, C++, and Windows development. Features **IntelliSense**, **integrated debugger**, **profiling tools**, and **Azure DevOps integration**. **The enterprise standard** for Microsoft-centric development.
-
-
-
-- **[JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/)**  
-
-  **The most powerful JVM IDE** with deep code intelligence, refactoring, and framework support. Features **database tools**, **HTTP client**, and **profiler**. **The enterprise standard** for Java/Kotlin development.
-
-
-
-- **[JetBrains PyCharm](https://www.jetbrains.com/pycharm/)**  
-
-  **The most feature-complete Python IDE** with scientific tools, Jupyter integration, and remote development. **The standard for professional Python development**.
-
-
-
-- **[JetBrains WebStorm](https://www.jetbrains.com/webstorm/)**  
-
-  **The most complete JavaScript/TypeScript IDE** with framework support, debugging, and testing integration.
-
-
-
-- **[Xcode](https://developer.apple.com/xcode/)**  
-
-  **Apple's official IDE** for macOS, iOS, and Swift development. Features **SwiftUI previews**, **Instruments profiling**, and **simulator integration**. **The only choice for native Apple development**.
-
-
-
-- **[Sublime Text](https://www.sublimetext.com/)**  
-
-  **The original fast text editor**—**$99 license** with unlimited updates. Features **multiple selections**, **command palette**, **Goto Anything**, and **extensive plugin ecosystem** . **The standard for developers who prioritize speed and keyboard-driven workflows** .
-
-
+| Platform | Company / Valuation / Revenue | Starting Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Apple Xcode](https://developer.apple.com/xcode/)** | Apple Inc. (~$3.5T Market Cap / ~$390B Rev) | $99/year (Apple Developer Program to distribute on App Store) | Free forever (free download for macOS; limited to local device testing & simulator debugging without App Store distribution) | Apple's official IDE for macOS, iOS, iPadOS, watchOS, and visionOS development with SwiftUI live previews, Instruments profiling, and SDK simulator integration. |
+| **[Microsoft Visual Studio](https://visualstudio.microsoft.com/)** | Microsoft (~$3.1T Market Cap / ~$245B Rev) | $45/user/month (Cloud subscription) or $499 (Perpetual license) | Free forever (Community edition: free for individuals, unlimited open-source contributors, and non-enterprise organizations with <250 PCs or <$1M annual revenue up to 5 users) | Microsoft's full-featured IDE for .NET, C++, C#, and Windows development with IntelliSense, remote debugging, profiling tools, and Azure DevOps integration. |
+| **[JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/)** | JetBrains (Private; ~$700M+ Annual Rev) | $19.90/user/month or $199/year (Individual Ultimate); $71.90/user/month (Org) | 30-day free trial (fully functional Ultimate trial; free forever Community edition limited to standard Java/Kotlin/Groovy without enterprise frameworks, profilers, or database tooling) | Premier JVM IDE featuring deep code intelligence, automated refactoring, JVM profilers, HTTP client, and spring/enterprise framework support. |
+| **[JetBrains PyCharm](https://www.jetbrains.com/pycharm/)** | JetBrains (Private; ~$700M+ Annual Rev) | $10.90/user/month or $109/year (Individual Professional); $27.90/user/month (Org) | 30-day free trial (fully functional Pro trial; free forever Community edition limited to pure Python development without web frameworks, remote interpreters, or SQL tooling) | Full-featured Python IDE supporting Django, Flask, FastAPI, remote Docker/SSH interpreters, and integrated Jupyter notebooks. |
+| **[JetBrains WebStorm](https://www.jetbrains.com/webstorm/)** | JetBrains (Private; ~$700M+ Annual Rev) | $7.90/user/month or $69/year (Individual Commercial); $15.90/user/month (Org) | Free forever for non-commercial use (learning, open-source, hobby projects); 30-day fully functional free trial for commercial evaluation | Complete JavaScript and TypeScript IDE with built-in framework support (React, Vue, Angular, Node.js), integrated debugger, and test runners. |
+| **[Sublime Text](https://www.sublimetext.com/)** | Sublime HQ (Private / Bootstrapped; ~2–10 employees) | $99 one-time purchase (includes 3 years of updates) | Indefinite free evaluation trial (fully functional without hard time expiry, but displays periodic purchase reminder prompts and restricts dev builds) | High-performance, lightweight code editor known for instantaneous startup, multi-cursor editing, command palette, and smooth custom UI rendering. |
 
 ## Open-Source GitHub Projects
 
