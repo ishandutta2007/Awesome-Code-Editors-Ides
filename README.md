@@ -129,6 +129,9 @@ The ecosystem displays a **bimodal competitive structure**:
 22. **[Eclipse IDE Core](https://github.com/eclipse-platform/eclipse.platform)** [![Stars](https://img.shields.io/github/stars/eclipse-platform/eclipse.platform?style=social&color=white)](https://github.com/eclipse-platform/eclipse.platform/stargazers)  
     **The foundational enterprise open-source IDE platform** (EPL-2.0) 🌐. Powers enterprise Java ecosystems worldwide with rich plugin extension mechanisms, workspace management, and modular compilation infrastructure.
 
+23. **[Volt](https://github.com/LeulAria/VOLT)** [![Stars](https://img.shields.io/github/stars/LeulAria/VOLT?style=social&color=white)](https://github.com/LeulAria/VOLT/stargazers)  
+    **Open-source AI code editor on the VS Code core** (MIT) ⚡. Runs Claude Code, Codex, OpenCode and other ACP agents, or local models via Ollama and LM Studio, on your own keys.
+
 ---
 
 ## 🛠️ Developer Selection Guide
