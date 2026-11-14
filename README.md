@@ -132,6 +132,9 @@ The ecosystem displays a **bimodal competitive structure**:
 23. **[Volt](https://github.com/LeulAria/VOLT)** [![Stars](https://img.shields.io/github/stars/LeulAria/VOLT?style=social&color=white)](https://github.com/LeulAria/VOLT/stargazers)  
     **Open-source AI code editor on the VS Code core** (MIT) ⚡. Runs Claude Code, Codex, OpenCode and other ACP agents, or local models via Ollama and LM Studio, on your own keys.
 
+24. **[vsux](https://github.com/shadowDragons/vsux)** [![Stars](https://img.shields.io/github/stars/shadowDragons/vsux?style=social&color=white)](https://github.com/shadowDragons/vsux/stargazers)
+    **Native macOS lightweight editor and terminal workspace** (MIT). Built with SwiftUI/AppKit and GhosttyKit; combines split terminals, file editing with syntax highlighting, live Markdown preview, Git tools, saved commands, and background services. Free; macOS 14+ on Apple Silicon. Currently an ad-hoc signed preview, not notarized by Apple.
+
 ---
 
 ## 🛠️ Developer Selection Guide
